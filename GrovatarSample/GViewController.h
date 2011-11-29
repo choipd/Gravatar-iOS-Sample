@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface GViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *emailField;
+@property (weak, nonatomic) IBOutlet UIImageView *profileImage;
+@property (weak, nonatomic) IBOutlet UITextView *urlStringField;
+- (IBAction)showProfile:(id)sender;
 
 @end

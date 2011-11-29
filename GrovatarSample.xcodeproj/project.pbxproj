@@ -20,6 +20,16 @@
 		1F2A28F7148486D500935337 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2A28D8148486D500935337 /* Foundation.framework */; };
 		1F2A28FF148486D500935337 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F2A28FD148486D500935337 /* InfoPlist.strings */; };
 		1F2A2902148486D500935337 /* GrovatarSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A2901148486D500935337 /* GrovatarSampleTests.m */; };
+		1F2A290E148487E300935337 /* GravatarHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A290D148487E300935337 /* GravatarHelper.m */; };
+		1F2A2924148488AA00935337 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1F2A2910148488AA00935337 /* LICENSE */; };
+		1F2A2925148488AA00935337 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1F2A2911148488AA00935337 /* README.md */; };
+		1F2A2926148488AA00935337 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A2913148488AA00935337 /* SDImageCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1F2A2927148488AA00935337 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A2917148488AA00935337 /* SDWebImageDecoder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1F2A2928148488AA00935337 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A2919148488AA00935337 /* SDWebImageDownloader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1F2A2929148488AA00935337 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A291C148488AA00935337 /* SDWebImageManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1F2A292A148488AA00935337 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A291F148488AA00935337 /* SDWebImagePrefetcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1F2A292B148488AA00935337 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A2921148488AA00935337 /* UIButton+WebCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1F2A292C148488AA00935337 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A2923148488AA00935337 /* UIImageView+WebCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +47,43 @@
 		1F2A28D6148486D500935337 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1F2A28D8148486D500935337 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1F2A28DA148486D500935337 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1F2A28DE148486D500935337 /* GrovatarSample-Info.plist */ = {isa = PBXFileReference; path = "GrovatarSample-Info.plist"; sourceTree = "<group>"; };
+		1F2A28DE148486D500935337 /* GrovatarSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GrovatarSample-Info.plist"; sourceTree = "<group>"; };
 		1F2A28E0148486D500935337 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F2A28E2148486D500935337 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1F2A28E4148486D500935337 /* GrovatarSample-Prefix.pch */ = {isa = PBXFileReference; path = "GrovatarSample-Prefix.pch"; sourceTree = "<group>"; };
-		1F2A28E5148486D500935337 /* GAppDelegate.h */ = {isa = PBXFileReference; path = GAppDelegate.h; sourceTree = "<group>"; };
+		1F2A28E4148486D500935337 /* GrovatarSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GrovatarSample-Prefix.pch"; sourceTree = "<group>"; };
+		1F2A28E5148486D500935337 /* GAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAppDelegate.h; sourceTree = "<group>"; };
 		1F2A28E6148486D500935337 /* GAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAppDelegate.m; sourceTree = "<group>"; };
 		1F2A28E9148486D500935337 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		1F2A28EB148486D500935337 /* GViewController.h */ = {isa = PBXFileReference; path = GViewController.h; sourceTree = "<group>"; };
+		1F2A28EB148486D500935337 /* GViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GViewController.h; sourceTree = "<group>"; };
 		1F2A28EC148486D500935337 /* GViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GViewController.m; sourceTree = "<group>"; };
 		1F2A28F3148486D500935337 /* GrovatarSampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrovatarSampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F2A28F4148486D500935337 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		1F2A28FC148486D500935337 /* GrovatarSampleTests-Info.plist */ = {isa = PBXFileReference; path = "GrovatarSampleTests-Info.plist"; sourceTree = "<group>"; };
+		1F2A28FC148486D500935337 /* GrovatarSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GrovatarSampleTests-Info.plist"; sourceTree = "<group>"; };
 		1F2A28FE148486D500935337 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1F2A2900148486D500935337 /* GrovatarSampleTests.h */ = {isa = PBXFileReference; path = GrovatarSampleTests.h; sourceTree = "<group>"; };
+		1F2A2900148486D500935337 /* GrovatarSampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrovatarSampleTests.h; sourceTree = "<group>"; };
 		1F2A2901148486D500935337 /* GrovatarSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrovatarSampleTests.m; sourceTree = "<group>"; };
+		1F2A290C148487E300935337 /* GravatarHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GravatarHelper.h; sourceTree = "<group>"; };
+		1F2A290D148487E300935337 /* GravatarHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GravatarHelper.m; sourceTree = "<group>"; };
+		1F2A2910148488AA00935337 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1F2A2911148488AA00935337 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		1F2A2912148488AA00935337 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		1F2A2913148488AA00935337 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		1F2A2914148488AA00935337 /* SDImageCacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCacheDelegate.h; sourceTree = "<group>"; };
+		1F2A2915148488AA00935337 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		1F2A2916148488AA00935337 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		1F2A2917148488AA00935337 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		1F2A2918148488AA00935337 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		1F2A2919148488AA00935337 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		1F2A291A148488AA00935337 /* SDWebImageDownloaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderDelegate.h; sourceTree = "<group>"; };
+		1F2A291B148488AA00935337 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		1F2A291C148488AA00935337 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		1F2A291D148488AA00935337 /* SDWebImageManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManagerDelegate.h; sourceTree = "<group>"; };
+		1F2A291E148488AA00935337 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		1F2A291F148488AA00935337 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		1F2A2920148488AA00935337 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		1F2A2921148488AA00935337 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		1F2A2922148488AA00935337 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		1F2A2923148488AA00935337 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +148,8 @@
 				1F2A28E8148486D500935337 /* MainStoryboard.storyboard */,
 				1F2A28EB148486D500935337 /* GViewController.h */,
 				1F2A28EC148486D500935337 /* GViewController.m */,
+				1F2A290F148488AA00935337 /* rs-SDWebImage-0dfb649 */,
+				1F2A290B148487E300935337 /* GravatarHelper */,
 				1F2A28DD148486D500935337 /* Supporting Files */,
 			);
 			path = GrovatarSample;
@@ -149,6 +183,42 @@
 				1F2A28FD148486D500935337 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F2A290B148487E300935337 /* GravatarHelper */ = {
+			isa = PBXGroup;
+			children = (
+				1F2A290C148487E300935337 /* GravatarHelper.h */,
+				1F2A290D148487E300935337 /* GravatarHelper.m */,
+			);
+			path = GravatarHelper;
+			sourceTree = "<group>";
+		};
+		1F2A290F148488AA00935337 /* rs-SDWebImage-0dfb649 */ = {
+			isa = PBXGroup;
+			children = (
+				1F2A2910148488AA00935337 /* LICENSE */,
+				1F2A2911148488AA00935337 /* README.md */,
+				1F2A2912148488AA00935337 /* SDImageCache.h */,
+				1F2A2913148488AA00935337 /* SDImageCache.m */,
+				1F2A2914148488AA00935337 /* SDImageCacheDelegate.h */,
+				1F2A2915148488AA00935337 /* SDWebImageCompat.h */,
+				1F2A2916148488AA00935337 /* SDWebImageDecoder.h */,
+				1F2A2917148488AA00935337 /* SDWebImageDecoder.m */,
+				1F2A2918148488AA00935337 /* SDWebImageDownloader.h */,
+				1F2A2919148488AA00935337 /* SDWebImageDownloader.m */,
+				1F2A291A148488AA00935337 /* SDWebImageDownloaderDelegate.h */,
+				1F2A291B148488AA00935337 /* SDWebImageManager.h */,
+				1F2A291C148488AA00935337 /* SDWebImageManager.m */,
+				1F2A291D148488AA00935337 /* SDWebImageManagerDelegate.h */,
+				1F2A291E148488AA00935337 /* SDWebImagePrefetcher.h */,
+				1F2A291F148488AA00935337 /* SDWebImagePrefetcher.m */,
+				1F2A2920148488AA00935337 /* UIButton+WebCache.h */,
+				1F2A2921148488AA00935337 /* UIButton+WebCache.m */,
+				1F2A2922148488AA00935337 /* UIImageView+WebCache.h */,
+				1F2A2923148488AA00935337 /* UIImageView+WebCache.m */,
+			);
+			path = "rs-SDWebImage-0dfb649";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +294,8 @@
 			files = (
 				1F2A28E1148486D500935337 /* InfoPlist.strings in Resources */,
 				1F2A28EA148486D500935337 /* MainStoryboard.storyboard in Resources */,
+				1F2A2924148488AA00935337 /* LICENSE in Resources */,
+				1F2A2925148488AA00935337 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +333,14 @@
 				1F2A28E3148486D500935337 /* main.m in Sources */,
 				1F2A28E7148486D500935337 /* GAppDelegate.m in Sources */,
 				1F2A28ED148486D500935337 /* GViewController.m in Sources */,
+				1F2A290E148487E300935337 /* GravatarHelper.m in Sources */,
+				1F2A2926148488AA00935337 /* SDImageCache.m in Sources */,
+				1F2A2927148488AA00935337 /* SDWebImageDecoder.m in Sources */,
+				1F2A2928148488AA00935337 /* SDWebImageDownloader.m in Sources */,
+				1F2A2929148488AA00935337 /* SDWebImageManager.m in Sources */,
+				1F2A292A148488AA00935337 /* SDWebImagePrefetcher.m in Sources */,
+				1F2A292B148488AA00935337 /* UIButton+WebCache.m in Sources */,
+				1F2A292C148488AA00935337 /* UIImageView+WebCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

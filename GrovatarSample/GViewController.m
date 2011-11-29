@@ -7,8 +7,13 @@
 //
 
 #import "GViewController.h"
+#import "GravatarHelper.h"
+#import "UIImageView+WebCache.h"
 
 @implementation GViewController
+@synthesize emailField;
+@synthesize profileImage;
+@synthesize urlStringField;
 
 - (void)didReceiveMemoryWarning
 {
@@ -26,6 +31,9 @@
 
 - (void)viewDidUnload
 {
+    [self setEmailField:nil];
+    [self setProfileImage:nil];
+    [self setUrlStringField:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -57,4 +65,16 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)showProfile:(id)sender {
+    [emailField resignFirstResponder];
+    
+    if ([emailField.text isEqualToString:@""]) {
+        urlStringField.text = @"Fill in email field first, please!";
+        return;
+    }
+    
+    NSURL* url = [GravatarHelper getGravatarURL:emailField.text];
+    urlStringField.text = [url absoluteString];
+    [profileImage setImageWithURL:url];
+}
 @end
