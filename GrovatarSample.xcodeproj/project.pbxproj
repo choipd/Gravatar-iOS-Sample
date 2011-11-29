@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F2A28D7148486D500935337 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2A28D6148486D500935337 /* UIKit.framework */; };
+		1F2A28D9148486D500935337 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2A28D8148486D500935337 /* Foundation.framework */; };
+		1F2A28DB148486D500935337 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2A28DA148486D500935337 /* CoreGraphics.framework */; };
+		1F2A28E1148486D500935337 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F2A28DF148486D500935337 /* InfoPlist.strings */; };
+		1F2A28E3148486D500935337 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A28E2148486D500935337 /* main.m */; };
+		1F2A28E7148486D500935337 /* GAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A28E6148486D500935337 /* GAppDelegate.m */; };
+		1F2A28EA148486D500935337 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F2A28E8148486D500935337 /* MainStoryboard.storyboard */; };
+		1F2A28ED148486D500935337 /* GViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A28EC148486D500935337 /* GViewController.m */; };
+		1F2A28F5148486D500935337 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2A28F4148486D500935337 /* SenTestingKit.framework */; };
+		1F2A28F6148486D500935337 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2A28D6148486D500935337 /* UIKit.framework */; };
+		1F2A28F7148486D500935337 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2A28D8148486D500935337 /* Foundation.framework */; };
+		1F2A28FF148486D500935337 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F2A28FD148486D500935337 /* InfoPlist.strings */; };
+		1F2A2902148486D500935337 /* GrovatarSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A2901148486D500935337 /* GrovatarSampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F2A28F8148486D500935337 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F2A28C9148486D500935337 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F2A28D1148486D500935337;
+			remoteInfo = GrovatarSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F2A28D2148486D500935337 /* GrovatarSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrovatarSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F2A28D6148486D500935337 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1F2A28D8148486D500935337 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1F2A28DA148486D500935337 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1F2A28DE148486D500935337 /* GrovatarSample-Info.plist */ = {isa = PBXFileReference; path = "GrovatarSample-Info.plist"; sourceTree = "<group>"; };
+		1F2A28E0148486D500935337 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F2A28E2148486D500935337 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F2A28E4148486D500935337 /* GrovatarSample-Prefix.pch */ = {isa = PBXFileReference; path = "GrovatarSample-Prefix.pch"; sourceTree = "<group>"; };
+		1F2A28E5148486D500935337 /* GAppDelegate.h */ = {isa = PBXFileReference; path = GAppDelegate.h; sourceTree = "<group>"; };
+		1F2A28E6148486D500935337 /* GAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAppDelegate.m; sourceTree = "<group>"; };
+		1F2A28E9148486D500935337 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		1F2A28EB148486D500935337 /* GViewController.h */ = {isa = PBXFileReference; path = GViewController.h; sourceTree = "<group>"; };
+		1F2A28EC148486D500935337 /* GViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GViewController.m; sourceTree = "<group>"; };
+		1F2A28F3148486D500935337 /* GrovatarSampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrovatarSampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F2A28F4148486D500935337 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1F2A28FC148486D500935337 /* GrovatarSampleTests-Info.plist */ = {isa = PBXFileReference; path = "GrovatarSampleTests-Info.plist"; sourceTree = "<group>"; };
+		1F2A28FE148486D500935337 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F2A2900148486D500935337 /* GrovatarSampleTests.h */ = {isa = PBXFileReference; path = GrovatarSampleTests.h; sourceTree = "<group>"; };
+		1F2A2901148486D500935337 /* GrovatarSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrovatarSampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F2A28CF148486D500935337 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2A28D7148486D500935337 /* UIKit.framework in Frameworks */,
+				1F2A28D9148486D500935337 /* Foundation.framework in Frameworks */,
+				1F2A28DB148486D500935337 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F2A28EF148486D500935337 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2A28F5148486D500935337 /* SenTestingKit.framework in Frameworks */,
+				1F2A28F6148486D500935337 /* UIKit.framework in Frameworks */,
+				1F2A28F7148486D500935337 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F2A28C7148486D500935337 = {
+			isa = PBXGroup;
+			children = (
+				1F2A28DC148486D500935337 /* GrovatarSample */,
+				1F2A28FA148486D500935337 /* GrovatarSampleTests */,
+				1F2A28D5148486D500935337 /* Frameworks */,
+				1F2A28D3148486D500935337 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F2A28D3148486D500935337 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F2A28D2148486D500935337 /* GrovatarSample.app */,
+				1F2A28F3148486D500935337 /* GrovatarSampleTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F2A28D5148486D500935337 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F2A28D6148486D500935337 /* UIKit.framework */,
+				1F2A28D8148486D500935337 /* Foundation.framework */,
+				1F2A28DA148486D500935337 /* CoreGraphics.framework */,
+				1F2A28F4148486D500935337 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F2A28DC148486D500935337 /* GrovatarSample */ = {
+			isa = PBXGroup;
+			children = (
+				1F2A28E5148486D500935337 /* GAppDelegate.h */,
+				1F2A28E6148486D500935337 /* GAppDelegate.m */,
+				1F2A28E8148486D500935337 /* MainStoryboard.storyboard */,
+				1F2A28EB148486D500935337 /* GViewController.h */,
+				1F2A28EC148486D500935337 /* GViewController.m */,
+				1F2A28DD148486D500935337 /* Supporting Files */,
+			);
+			path = GrovatarSample;
+			sourceTree = "<group>";
+		};
+		1F2A28DD148486D500935337 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F2A28DE148486D500935337 /* GrovatarSample-Info.plist */,
+				1F2A28DF148486D500935337 /* InfoPlist.strings */,
+				1F2A28E2148486D500935337 /* main.m */,
+				1F2A28E4148486D500935337 /* GrovatarSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F2A28FA148486D500935337 /* GrovatarSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F2A2900148486D500935337 /* GrovatarSampleTests.h */,
+				1F2A2901148486D500935337 /* GrovatarSampleTests.m */,
+				1F2A28FB148486D500935337 /* Supporting Files */,
+			);
+			path = GrovatarSampleTests;
+			sourceTree = "<group>";
+		};
+		1F2A28FB148486D500935337 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F2A28FC148486D500935337 /* GrovatarSampleTests-Info.plist */,
+				1F2A28FD148486D500935337 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F2A28D1148486D500935337 /* GrovatarSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F2A2905148486D500935337 /* Build configuration list for PBXNativeTarget "GrovatarSample" */;
+			buildPhases = (
+				1F2A28CE148486D500935337 /* Sources */,
+				1F2A28CF148486D500935337 /* Frameworks */,
+				1F2A28D0148486D500935337 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrovatarSample;
+			productName = GrovatarSample;
+			productReference = 1F2A28D2148486D500935337 /* GrovatarSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F2A28F2148486D500935337 /* GrovatarSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F2A2908148486D500935337 /* Build configuration list for PBXNativeTarget "GrovatarSampleTests" */;
+			buildPhases = (
+				1F2A28EE148486D500935337 /* Sources */,
+				1F2A28EF148486D500935337 /* Frameworks */,
+				1F2A28F0148486D500935337 /* Resources */,
+				1F2A28F1148486D500935337 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F2A28F9148486D500935337 /* PBXTargetDependency */,
+			);
+			name = GrovatarSampleTests;
+			productName = GrovatarSampleTests;
+			productReference = 1F2A28F3148486D500935337 /* GrovatarSampleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F2A28C9148486D500935337 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Insol;
+			};
+			buildConfigurationList = 1F2A28CC148486D500935337 /* Build configuration list for PBXProject "GrovatarSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F2A28C7148486D500935337;
+			productRefGroup = 1F2A28D3148486D500935337 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F2A28D1148486D500935337 /* GrovatarSample */,
+				1F2A28F2148486D500935337 /* GrovatarSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F2A28D0148486D500935337 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2A28E1148486D500935337 /* InfoPlist.strings in Resources */,
+				1F2A28EA148486D500935337 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F2A28F0148486D500935337 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2A28FF148486D500935337 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F2A28F1148486D500935337 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F2A28CE148486D500935337 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2A28E3148486D500935337 /* main.m in Sources */,
+				1F2A28E7148486D500935337 /* GAppDelegate.m in Sources */,
+				1F2A28ED148486D500935337 /* GViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F2A28EE148486D500935337 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2A2902148486D500935337 /* GrovatarSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F2A28F9148486D500935337 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F2A28D1148486D500935337 /* GrovatarSample */;
+			targetProxy = 1F2A28F8148486D500935337 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F2A28DF148486D500935337 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F2A28E0148486D500935337 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1F2A28E8148486D500935337 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F2A28E9148486D500935337 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		1F2A28FD148486D500935337 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F2A28FE148486D500935337 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F2A2903148486D500935337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F2A2904148486D500935337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F2A2906148486D500935337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GrovatarSample/GrovatarSample-Prefix.pch";
+				INFOPLIST_FILE = "GrovatarSample/GrovatarSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1F2A2907148486D500935337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GrovatarSample/GrovatarSample-Prefix.pch";
+				INFOPLIST_FILE = "GrovatarSample/GrovatarSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1F2A2909148486D500935337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GrovatarSample.app/GrovatarSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GrovatarSample/GrovatarSample-Prefix.pch";
+				INFOPLIST_FILE = "GrovatarSampleTests/GrovatarSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1F2A290A148486D500935337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GrovatarSample.app/GrovatarSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GrovatarSample/GrovatarSample-Prefix.pch";
+				INFOPLIST_FILE = "GrovatarSampleTests/GrovatarSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F2A28CC148486D500935337 /* Build configuration list for PBXProject "GrovatarSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F2A2903148486D500935337 /* Debug */,
+				1F2A2904148486D500935337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F2A2905148486D500935337 /* Build configuration list for PBXNativeTarget "GrovatarSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F2A2906148486D500935337 /* Debug */,
+				1F2A2907148486D500935337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F2A2908148486D500935337 /* Build configuration list for PBXNativeTarget "GrovatarSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F2A2909148486D500935337 /* Debug */,
+				1F2A290A148486D500935337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F2A28C9148486D500935337 /* Project object */;
+}
